@@ -3,14 +3,14 @@ namespace offsets
 {
     // buttons
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const long IN_ATTACK = 0x076665d8; // [Buttons] -> in_attack
+    const long IN_ATTACK = 0x076687d8; // [Buttons] -> in_attack
     // core
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long REGION = 0x140000000;     // [Mine]          -> Region
-    const long LEVEL = 0x1449f00;        // [Miscellaneous] -> LevelName
-    const long LOCAL_PLAYER = (0x01edb670 + 8); // [Miscellaneous] -> LocalPlayer
-    const long ENTITY_LIST = 0x1b2a578;  // [Miscellaneous] -> cl_entitylist
-    const long OFFSET_RENDER = 0x7664e80;
+    const long LEVEL = 0x144bf10;        // [Miscellaneous] -> LevelName
+    const long LOCAL_PLAYER = (0x01edd7e0 + 0x8); // [Miscellaneous] -> LocalPlayer
+    const long ENTITY_LIST = 0x1b2c6e8;  // [Miscellaneous] -> cl_entitylist
+    const long OFFSET_RENDER = 0x7665f38;
     const long OFFSET_MATRIX = 0x11a210;
     // entity
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -42,7 +42,7 @@ namespace offsets
     //#######################################################
     
     const long OFFSET_NAME_INDEX = 0x38;
-    const long OFFSET_NAMELIST = 0xbbda330;
+    const long OFFSET_NAMELIST = 0xbbdc630;
     /*
         std::string Player::GetName(uintptr_t player)
 	{
@@ -60,10 +60,10 @@ namespace offsets
     
     const long OFFSET_ViewModels = 0x2d58;
     
-    const long thirdperson_override = 0x01b0f000;
+    const long thirdperson_override = 0x01b11020;
     const long m_thirdPersonShoulderView = 0x36c8;
     
-    const long OFFSET_TIMESCALE = 0x014c52a0;//host_timescale
+    const long OFFSET_TIMESCALE = 0x014c72c0;//host_timescale
 
 
     const long OFFSET_SILENTAIM_TEST_RW_ADDR = 0x14ea21000;
