@@ -17,11 +17,9 @@ You can change the range by changing the following constants in Aimbot.cpp
 #define AIMBOT_DISTANCE_3D 100  
 
 You can toggle headshot only in Aimbot.cpp line 126 & 127.
-
 Just comment out the top or bottom for whichever you choose
 
 target->get_bone_pos(8, &targetHead);// headshot only
-
 //target->get_bone_pos(3, &targetHead);//bodyshot
 
   
